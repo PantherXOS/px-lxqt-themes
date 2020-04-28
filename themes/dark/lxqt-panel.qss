@@ -543,3 +543,44 @@ QMenu::indicator:non-exclusive:checked {
     margin-right: 2px;
     margin-left: 2px;
 }
+
+/*
+ * PxMenuLabel
+ */
+#PxMenuLabel {
+    padding: 2px 2px 2px 2px;
+    margin: 2px;
+   color: white;
+}
+
+#PxMenuLabel > QLabel {
+    color: white;
+}
+
+/*
+ * PxMenuTitle
+ */
+#PxMenuTitle {
+    background: rgba(30,30, 30);
+   color: white;
+}
+
+#PxMenuTitle > QWidget{
+    margin: 2px;
+    border: 0px;
+    color: white;
+}
+
+/*
+ * PxMenuItem
+ */
+#PxMenuItem:hover {
+   border: 1px solid rgba(0, 0, 0, 50%);
+   background: #500709;
+   color: white;
+}
+
+#PxMenuItem > QWidget{
+    margin: 2px;
+    color: white;
+}
