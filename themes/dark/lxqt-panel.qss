@@ -581,6 +581,7 @@ QMenu::indicator:non-exclusive:checked {
 }
 
 #PxMenuItem > QWidget{
-    margin: 2px;
+    margin: 0px;
+    margin-left: 2px;
     color: white;
 }
