@@ -585,3 +585,22 @@ QMenu::indicator:non-exclusive:checked {
     margin-left: 2px;
     color: white;
 }
+
+/*
+* Plugin System
+*/
+#LXQtSystem {
+    background: black;
+    color: white;
+    border: none;
+   
+}
+
+#PxSystemItem > QWidget{
+    color: white;
+}
+
+#LXQtSystem::separator {
+    background-color: transparent;
+    color: white;
+}
