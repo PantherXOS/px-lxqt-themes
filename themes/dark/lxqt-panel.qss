@@ -607,3 +607,23 @@ QMenu::indicator:non-exclusive:checked {
    background: #500709;
    color: white;
 }
+
+/*
+* Plugin Hub
+*/
+#PxHub {
+    background: black;
+    color: white;
+    border: none;
+   
+}
+
+#PxHubItem > QWidget{
+    color: white;
+}
+
+#PxHubItem:hover {
+   border: 1px solid rgba(0, 0, 0, 50%);
+   background: #500709;
+   color: white;
+}
