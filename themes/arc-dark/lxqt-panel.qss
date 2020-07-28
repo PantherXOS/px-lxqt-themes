@@ -584,7 +584,7 @@ QMenu::separator {
 }
 
 /*
- * PxMenuTitle
+ * PantherX Menu
  */
 #PxMenuTitle {
     background: rgba(89,89,97);
@@ -597,9 +597,6 @@ QMenu::separator {
     color: white;
 }
 
-/*
- * PxMenuItem
- */
 #PxMenuItem:hover {
    border: 1px solid rgba(0, 0, 0, 50%);
    background: #5294e2;
@@ -615,13 +612,12 @@ QMenu::separator {
 }
 
 /*
-* Plugin System
+* PantherX System
 */
 #PxSystem {
     background: black;
     color: white;
     border: none;
-   
 }
 
 #PxSystemItem > QWidget{
@@ -635,8 +631,19 @@ QMenu::separator {
 }
 
 /*
-* Plugin Hub
-*/
+ * PantherX HUB 
+ */
+#PxHubTitle {
+   color: white;
+}
+
+#PxHubTitle > QWidget{
+    margin: 2px;
+    border: 0px;
+    color: white;
+}
+
+
 #PxHub {
     background: black;
     color: white;
