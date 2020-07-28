@@ -383,3 +383,93 @@ VolumePopup  > QPushButton:hover {
     margin-right: 2px;
     margin-left: 2px;
 }
+
+/*
+ * PxMenuLabel
+ */
+#PxMenuLabel {
+    padding: 2px 2px 2px 2px;
+    margin: 2px;
+    color: #606060;
+}
+
+#PxMenuLabel > QLabel {
+    color: #606060;
+}
+
+/*
+ * PantherX Menu
+ */
+#PxMenuTitle {
+    background: rgba(89,89,97);
+   color: #606060;
+}
+
+#PxMenuTitle > QWidget{
+    margin: 2px;
+    border: 0px;
+    color: #606060;
+}
+
+#PxMenuItem:hover {
+   border: 1px solid rgba(0, 0, 0, 50%);
+   background: #80a8d3;
+   color: #606060;
+}
+
+#PxMenuItem > QWidget{
+    margin: 0px;
+    margin-left: 2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #606060;
+}
+
+/*
+* PantherX System
+*/
+#PxSystem {
+    background: black;
+    color: white;
+    border: none;
+}
+
+#PxSystemItem > QWidget{
+    color: #606060;
+}
+
+#PxSystemItem:hover {
+   border: 1px solid rgba(0, 0, 0, 50%);
+   background: #80a8d3;
+   color: #606060;
+}
+
+/*
+ * PantherX HUB 
+ */
+#PxHubTitle {
+   color: white;
+}
+
+#PxHubTitle > QWidget{
+    margin: 2px;
+    border: 0px;
+    color: #606060;
+}
+
+
+#PxHub {
+    background: black;
+    color: white;
+    border: none;
+}
+
+#PxHubItem > QWidget{
+    color: #606060;
+}
+
+#PxHubItem:hover {
+   border: 1px solid rgba(0, 0, 0, 50%);
+   background: #80a8d3;
+   color: #606060;
+}
