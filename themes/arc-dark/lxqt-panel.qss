@@ -569,9 +569,8 @@ QMenu::separator {
     margin-left: 2px;
 }
 
-
 /*
- * PxMenuLabel
+ * PantherX Menu
  */
 #PxMenuLabel {
     padding: 2px 2px 2px 2px;
@@ -583,9 +582,6 @@ QMenu::separator {
     color: white;
 }
 
-/*
- * PantherX Menu
- */
 #PxMenuTitle {
     background: rgba(89,89,97);
    color: white;
@@ -594,20 +590,6 @@ QMenu::separator {
 #PxMenuTitle > QWidget{
     margin: 2px;
     border: 0px;
-    color: white;
-}
-
-#PxMenuItem:hover {
-   border: 1px solid rgba(0, 0, 0, 50%);
-   background: #5294e2;
-   color: white;
-}
-
-#PxMenuItem > QWidget{
-    margin: 0px;
-    margin-left: 2px;
-    margin-top: 0px;
-    margin-bottom: 0px;
     color: white;
 }
 
