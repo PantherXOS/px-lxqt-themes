@@ -7,7 +7,7 @@ LXQtPanel #BackgroundWidget {
 }
 
 QToolTip {
-    border: 1px solid rgb(39, 44, 53);
+    border: 1px solid rgb(82, 148, 226);
     background:rgb(19, 18, 23);
     padding: 2px;
     margin: 0px;
@@ -43,8 +43,8 @@ LXQtPanelPlugin > QToolButton {
 Plugin > QToolButton:hover,
 Plugin > QWidget > QToolButton:hover,
 LXQtPanelPlugin > QToolButton:hover {
-    border: 1px solid rgb(39, 44, 53);
-    background: rgb(57, 61, 75);
+    border: 1px solid rgb(82, 148, 226);
+    background: rgb(82, 148, 226);
 }
 
 Plugin > QToolButton:pressed,
@@ -64,17 +64,17 @@ VolumePopup {
 
 VolumePopup  > QPushButton {
     color: #D2D8E0;
-    background: #444a58;
+    background: #030207;
     padding: 2px 10px;
     margin: 2px;
+    border: 1px solid rgb(82, 148, 226);
     border-radius: 2px;
     qproperty-iconSize: 24px;
 }
 
 VolumePopup  > QPushButton:hover {
-    border: 1px solid rgb(39, 44, 53);
     border-radius: 2px;
-    background: rgb(80, 86, 102);
+    background: rgb(82, 148, 226);
 }
 
 VolumePopup  > QSlider::groove:vertical {
@@ -88,7 +88,7 @@ VolumePopup  > QSlider::handle:vertical {
     width: 10px;
     background: #444a58;
     border-radius: 6px;
-    border: 1px solid rgb(39, 44, 53);
+    border: 1px solid rgb(82, 148, 226);
     margin: 0 -4px; /* expand outside the groove */
  }
 
@@ -114,13 +114,13 @@ VolumePopup  > QSlider::sub-page:vertical {
 
 #DesktopSwitch QToolButton:on {
     background: rgb(03, 02, 07);
-    border: 1px solid rgb(39, 44, 53);
+    border: 1px solid rgb(82, 148, 226);
     font: bold;
 }
 
 #DesktopSwitch QToolButton:hover {
-    border: 1px solid rgb(39, 44, 53);
-    background: rgb(79, 86, 101);
+    border: 1px solid rgb(82, 148, 226);
+    background: rgb(82, 148, 226);
 }
 
 #DesktopSwitch QToolButton:pressed {
@@ -146,8 +146,8 @@ VolumePopup  > QSlider::sub-page:vertical {
 }
 
 #QuickLaunch QToolButton:hover{
-    border: 1px rgb(39, 44, 53);
-    background: rgb(79, 86, 101);
+    border: 1px rgb(82, 148, 226);
+    background: rgb(82, 148, 226);
 }
 
 #QuickLaunch QToolButton:pressed {
@@ -165,16 +165,16 @@ VolumePopup  > QSlider::sub-page:vertical {
 
 #TaskBar QToolButton:on {
     border-bottom: 2px solid rgb(82, 148, 226);
-    background: rgb(39, 44, 53);
+    background: rgb(82, 148, 226);
 }
 
 #TaskBar QToolButton:on:hover {
     border-bottom: 2px solid rgb(82, 148, 226);
-    background: rgb(79, 86, 101);
+    background: rgb(82, 148, 226);
 }
 
 #TaskBar QToolButton:hover {
-   background: rgb(79, 86, 101);
+   background: rgb(82, 148, 226);
 }
 
 #TaskBar QToolButton:pressed {
@@ -188,15 +188,15 @@ VolumePopup  > QSlider::sub-page:vertical {
 
 #TaskBar LXQtGroupPopup {
     background:rgba(03, 02, 07, 95%);
-    border: 1px solid rgba(39, 44, 53, 95%);
+    border: 1px solid rgba(82, 148, 226, 95%);
 }
 
 #TaskBar LXQtGroupPopup QToolButton:on {
-    background: rgb(39, 44, 53);
+    background: rgb(82, 148, 226);
 }
 
 #TaskBar LXQtGroupPopup QToolButton:on:hover {
-    background: rgb(79, 86, 101);
+    background: rgb(82, 148, 226);
 }
 
 /*
@@ -215,8 +215,8 @@ QCalendarWidget #qt_calendar_monthbutton {
 QCalendarWidget #qt_calendar_monthbutton:hover,
 QCalendarWidget #qt_calendar_prevmouth:hover,
 QCalendarWidget #qt_calendar_nextmouth:hover {
-   border: 1px solid rgb(39, 44, 53);
-   background: rgb(79, 86, 101);
+   border: 1px solid rgb(82, 148, 226);
+   background: rgb(82, 148, 226);
 }
 QCalendarWidget #qt_calendar_monthbutton::menu-indicator {
    image: none;
@@ -266,8 +266,8 @@ QCalendarWidget {
  * Clock
  */
 #Clock:hover {
-   border: 1px solid rgb(39, 44, 53);
-   background: rgb(79, 86, 101);
+   border: 1px solid rgb(82, 148, 226);
+   background: rgb(82, 148, 226);
 }
 
 #Clock > QWidget{
@@ -308,9 +308,7 @@ TrayIcon {
 QMenu {
     margin: 0px;
     padding: 2px;
-    border: 1px solid rgba(50, 50, 50, 80%);
-    border-bottom-color: rgba(0, 0, 0, 80%);
-    border-right-color: rgba(0, 0, 0, 80%);
+    border: 1px solid rgba(30, 30, 30, 80%);
     background: rgb(03, 02, 07);
     /*qproperty-icon: url(mainmenu.svg);*/
     color: white;
@@ -332,7 +330,7 @@ QMenu QToolButton {
 QMenu::separator {
     background-color: rgba(255, 255, 255, 80%);  
     background: rgba(255, 255, 255, 20%);
-    height: 2px; /* when horizontal */
+    height: 1px; /* when horizontal */
 }
 
 
@@ -349,8 +347,8 @@ QMenu::separator {
     color: #D2D8E0;
 }
 #MainMenu:hover {
-    border: 1px solid rgb(39, 44, 53);
-    background: rgb(79, 86, 101);
+    border: 1px solid rgb(82, 148, 226);
+    background: rgb(82, 148, 226);
 }
 
 #MainMenu:pressed {
@@ -425,8 +423,8 @@ QMenu::separator {
 }
 
 #LXQtMountPopup > MenuDiskItem:hover {
-    border: 1px solid rgb(39, 44, 53);
-    background: rgb(79, 86, 101);
+    border: 1px solid rgb(82, 148, 226);
+    background: rgb(82, 148, 226);
 }
 
 #LXQtMountPopup #EjectButton,
@@ -467,8 +465,8 @@ QMenu::separator {
  * ShowDesktop
  */
 #ShowDesktop > QToolButton:hover {
-    border: 1px solid rgb(39, 44, 53);
-    background: rgb(79, 86, 101);
+    border: 1px solid rgb(82, 148, 226);
+    background: rgb(82, 148, 226);
 }
 
 /*
@@ -484,7 +482,7 @@ QMenu::separator {
 
 #KbIndicator > QLabel:enabled {
     background: rgb(03, 02, 07);
-    border: 1px solid rgb(39, 44, 53);
+    border: 1px solid rgb(82, 148, 226);
     font: bold;
 }
 
@@ -522,8 +520,8 @@ QMenu::separator {
  * WorldClock
  */
 #WorldClock:hover {
-   border: 1px solid rgb(39, 44, 53);
-   background: rgb(57, 61, 75);
+   border: 1px solid rgb(82, 148, 226);
+   background: rgb(82, 148, 226);
 }
 
 #WorldClockContent {

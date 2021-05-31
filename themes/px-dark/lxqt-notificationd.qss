@@ -1,7 +1,7 @@
 Notification {
     color: #D2D8E0;
     border: 0px solid rgb(0, 0, 0);
-    background: rgb(47, 52, 63);
+    background: rgb(03, 02, 07);
     margin: 0px;
 }
 
