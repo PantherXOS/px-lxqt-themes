@@ -310,7 +310,7 @@ QMenu {
     padding: 2px;
     border: 1px solid rgba(30, 30, 30, 80%);
     background: rgb(03, 02, 07);
-    /*qproperty-icon: url(mainmenu.svg);*/
+    /*qproperty-icon: url(panther.svg);*/
     color: white;
 }
 
@@ -343,7 +343,7 @@ QMenu::separator {
     padding: 2px;
     border: none;
     background: rgba(0, 0, 0, 0%);
-    qproperty-icon: url(mainmenu.svg);
+    qproperty-icon: url(panther.svg);
     color: #D2D8E0;
 }
 #MainMenu:hover {
