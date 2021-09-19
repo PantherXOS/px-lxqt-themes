@@ -287,13 +287,6 @@ QMenu QToolButton {
     font: bold italic;
 }
 
-QMenu::separator {
-    background-color: palette(link-visited);
-    background: palette(link-visited);
-    height: 1px; /* when horizontal */
-}
-
-
 /*
  * Main menu
  */
