@@ -188,6 +188,7 @@ VolumePopup  > QSlider::sub-page:vertical {
  */
 #QuickLaunchPlaceHolder {
     color: #AAAAAA;
+    padding: 0 5px;
 }
 
 #QuickLaunch QToolButton{
@@ -387,6 +388,11 @@ QMenu::item:disabled {
 
 QMenu::right-arrow {
     image: url(arrow-right.svg);
+}
+
+QMenu::left-arrow
+{
+	image: url(arrow-left.svg);
 }
 
 QMenu::indicator {

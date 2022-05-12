@@ -89,14 +89,7 @@ LXQtPanelPlugin > QToolButton
 {
 	background-color:	transparent;
 	color:			rgba(255, 255, 255, 80%);
-	border:			0px;
-
-	margin-left:		0px;
-	margin-right:		2px;
-	margin-top:		2px;
-	margin-bottom:		2px;
-
-	padding:		4px;
+	padding:	0 5px;
 }
 
 #QuickLaunch QToolButton
@@ -247,6 +240,16 @@ QMenu::item:disabled
 #MainMenu QMenu::right-arrow:selected
 {
 	image:		url(arrow-right.svg);
+}
+
+QMenu::left-arrow
+{
+	image: url(arrow-left.svg);
+}
+
+QMenu::left-arrow:selected
+{
+	image: url(arrow-left.svg);
 }
 
 #MainMenu QMenu::item

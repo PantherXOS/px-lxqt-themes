@@ -7,7 +7,7 @@ cmake_minimum_required(VERSION 3.1.0 FATAL_ERROR)
 project(lxqt-themes)
 
 # Minimum Versions
-set(LXQTBT_MINIMUM_VERSION "0.10.0")
+set(LXQTBT_MINIMUM_VERSION "0.11.0")
 
 # lxqt-themes has no binaries - but we can set an informal version
 # Version 0.15.0
@@ -22,3 +22,5 @@ include(LXQtConfigVars)
 install(DIRECTORY "graphics/" DESTINATION "${LXQT_GRAPHICS_DIR}")
 add_subdirectory(themes)
 add_subdirectory(icons)
+add_subdirectory(wallpapers)
+add_subdirectory(palettes)

@@ -90,15 +90,32 @@ QMenu::icon {
 
 QMenu::item:selected {
    background: #1899da;
-   color: #d7e3e6;
+   color: #0a0a2b;
 }
 
 QMenu::item:disabled {
    color: #5b6d73;
 }
 
-QMenu::right-arrow {
+
+QMenu::right-arrow
+{
    image: url(arrow-right.svg);
+}
+
+QMenu::right-arrow:selected
+{
+   image: url(arrow-right-selected.svg);
+}
+
+QMenu::left-arrow
+{
+   image: url(arrow-left.svg);
+}
+
+QMenu::left-arrow:selected
+{
+   image: url(arrow-left-selected.svg);
 }
 
 QMenu::separator {
@@ -400,7 +417,8 @@ Quicklaunch
 */
 #QuickLaunchPlaceHolder {
     color: #e7f4f8;
-    font-size:10px;
+    background-color:#162635;
+    padding:0 5px;
 }
 
 #QuickLaunch QToolButton:hover {
@@ -454,28 +472,6 @@ Mount plugin
    color: #f3f8f9;
    padding: 4px;
    background: #041b27;
-}
-
-/*
-Color Picker
-*/
-#ColorPickerPlugin QToolButton{
-   qproperty-icon: url(color-picker.svg);
-   padding: 1px;
-}
-
-#ColorPickerPlugin QToolButton:hover {
-   border-radius: 2px;
-   border:1px solid #1899da;
-   background:black;
-}
-
-#ColorPickerPlugin QLineEdit {
-   border: 1px solid #1899da;
-   margin: 2px;
-   padding: 1px;
-   background: rgba(0, 0, 0, 10%);
-   color: #e3e3e3;
 }
 
 /*

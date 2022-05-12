@@ -67,6 +67,16 @@ QMenu::right-arrow:selected
 	image: url(arrow-right-selected.svg);
 }
 
+QMenu::left-arrow
+{
+	image: url(arrow-left.svg);
+}
+
+QMenu::left-arrow:selected
+{
+	image: url(arrow-left-selected.svg);
+}
+
 QMenu::item
 {
 	border:			1px solid transparent;
@@ -165,16 +175,9 @@ QMenu::indicator:non-exclusive:checked:selected {
 /* Quick Launch (Icon bar) */
 #QuickLaunchPlaceHolder
 {
-	background-color:	transparent;
-	color:			909090;
-	border:			0px;
-
-	margin-left:		0px;
-	margin-right:		2px;
-	margin-top:		2px;
-	margin-bottom:		2px;
-
-	padding:		3px;
+	background-color:	#edeceb;
+	color:				#232323;
+	padding:			0 5px;
 }
 
 #QuickLaunch QToolButton
