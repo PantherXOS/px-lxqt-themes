@@ -88,20 +88,20 @@ VolumePopup > QSlider::handle:vertical {
     background: #DEDEDE;
     border-radius: 5px;
     margin: 0 -4px; /* expand outside the groove */
- }
+}
 
 VolumePopup > QSlider::add-page:vertical {
     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-    stop: 0 #787676, stop: 1 #ABABAB);
+            stop: 0 #787676, stop: 1 #ABABAB);
     border: 1px solid rgba(0, 0, 0, 80%);
     border-radius: 3px;
 
- }
+}
 
 VolumePopup > QSlider::sub-page:vertical {
-     background: rgba(0, 0, 0, 80%);
-     border-radius: 3px;
- }
+    background: rgba(0, 0, 0, 80%);
+    border-radius: 3px;
+}
 
 /*
  *Backlight Plugin
@@ -143,7 +143,7 @@ VolumePopup > QSlider::sub-page:vertical {
 
 #Backlight > SliderDialog > QSlider::add-page:vertical {
     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-    stop: 0 #787676, stop: 1 #ABABAB);
+            stop: 0 #787676, stop: 1 #ABABAB);
     border: 1px solid rgba(0, 0, 0, 80%);
 }
 
@@ -218,8 +218,8 @@ VolumePopup > QSlider::sub-page:vertical {
 }
 
 #TaskBar QToolButton:hover {
-   border: 1px solid rgba(0, 0, 0, 50%);
-   background: rgba(255, 255, 255, 20%);
+    border: 1px solid rgba(0, 0, 0, 50%);
+    background: rgba(255, 255, 255, 20%);
 }
 
 #TaskBar QToolButton:pressed {
@@ -267,12 +267,12 @@ QCalendarWidget #qt_calendar_monthbutton {
 }
 
 QCalendarWidget #qt_calendar_monthbutton:hover {
-   border: 1px solid rgba(0, 0, 0, 50%);
-   background: rgba(255, 255, 255, 20%);
+    border: 1px solid rgba(0, 0, 0, 50%);
+    background: rgba(255, 255, 255, 20%);
 }
 
 QCalendarWidget #qt_calendar_monthbutton::menu-indicator {
-   image: none;
+    image: none;
 }
 
 QCalendarWidget QTableView {
@@ -295,8 +295,8 @@ QCalendarWidget #qt_calendar_prevmonth {
  * Clock
  */
 #Clock:hover {
-   border: 1px solid rgba(0, 0, 0, 50%);
-   background: rgba(255, 255, 255, 20%);
+    border: 1px solid rgba(0, 0, 0, 50%);
+    background: rgba(255, 255, 255, 20%);
 }
 
 #Clock > QWidget {
@@ -394,7 +394,7 @@ QMenu::right-arrow {
 }
 
 QMenu::left-arrow {
-	image: url(arrow-left.svg);
+    image: url(arrow-left.svg);
 }
 
 QMenu::indicator {
@@ -498,8 +498,8 @@ QMenu::indicator:non-exclusive:checked {
  * ShowDesktop
  */
 #ShowDesktop > QToolButton:hover {
-   border: 1px solid rgba(0, 0, 0, 50%);
-   background: rgba(255, 255, 255, 20%);
+    border: 1px solid rgba(0, 0, 0, 50%);
+    background: rgba(255, 255, 255, 20%);
 }
 
 /*
@@ -552,8 +552,8 @@ QMenu::indicator:non-exclusive:checked {
  * WorldClock
  */
 #WorldClock:hover {
-   border: 1px solid rgba(0, 0, 0, 50%);
-   background: rgba(255, 255, 255, 20%);
+    border: 1px solid rgba(0, 0, 0, 50%);
+    background: rgba(255, 255, 255, 20%);
 }
 
 #WorldClockContent {
@@ -584,7 +584,7 @@ QMenu::indicator:non-exclusive:checked {
 
 #Spacer[type="dotted"] {
     background-image: url(/spacer-plugin/spacer-dots.svg);
- }
+}
 
 #Spacer[orientation="horizontal"] {
     background-repeat: repeat-y;
